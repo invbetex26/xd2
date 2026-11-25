@@ -1,0 +1,19 @@
+AFINTY · versión futurista + IA proactiva
+
+CÓMO SUBIRLA
+- Reemplaza en tu carpeta/GitHub Pages: index.html, index-57gRJbQa.js (mismos nombres que antes).
+- Deja igual: exceljs_min-CGpJgse4.js y las 3 fotos hospital-*.png.
+- Para probar local: en esta carpeta ejecuta  python -m http.server 8000  y abre http://localhost:8000
+
+QUÉ CAMBIÓ
+- Diseño: tema oscuro neón/glass (azul-cian + violeta), tipografías Syne (títulos) y Space Mono (etiquetas tipo "PANEL_").
+- Portada nueva en Resumen con la fachada del hospital, contadores animados y botones.
+- Asistente IA -> "Centro de comando IA" con 3 pestañas:
+    1) Monitor en vivo: si un doctor llega tarde la IA avisa (+10 min), reasigna pacientes y les manda SMS (+20 min) y escala a Jefatura (+35 min).
+       Modo "IA autónoma" o "Requiere mi aprobación".
+    2) Admisión inteligente: la IA le pregunta al paciente (DNI, seguro, motivo, alergias...), valida, calcula prioridad y deja la ficha lista para Admisión, Seguros, Historia Clínica y Farmacia.
+    3) Conversar con la IA (el chat de antes, ahora entiende "doctor tarde" y "papeles").
+- Paciente o familia: nueva opción "Admisión con IA" en su menú.
+- Las alertas de la IA aparecen en la sección Alertas.
+
+NOTA: las fuentes se cargan desde Google Fonts, necesitas internet la primera vez.
